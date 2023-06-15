@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# MY DIARY
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `yarn start`
 
-## Available Scripts
+Запуск приложения
 
-In the project directory, you can run:
+### `yarn server`
 
-### `npm start`
+Для того, чтобы запустить сервер, создайте второй терминал и воспользуйтесь командой `yarn server`
+Локальный сервер запустится по умолчания на localhost:3001
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## `Вход в приложение`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Для того чтобы войти в приложение, нужно осуществить регистрацию нового пользователя,
+затем в открывшемся окне авторизации осуществить вход используя данные, указанные при регистрации.
 
-### `npm test`
+## `Функционал`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Реализован следующий функционал:
+1. Регистрация
+2. Авторизация
+3. Создание постов
+4. Удаление постов
+5. Редактирование постов
+6. Поиск постов по заголовку и содержанию (живой поиск)
+7. Добавление даты  создания и даты редактирования
+8. Проверка на не/зарегистрированного пользователя
+9. Обработка ошибок и отображение в уведомлениях
+При регистрации в базе данных создается новый пользователь
 
-### `npm run build`
+## `Стек`
+1. React (Hooks, CustomHooks, ReactRouter)
+2. Typescript
+3. Axios
+4. MobX, mobx-persist
+5. Styled Components
+6. Eslint, Prettier
+7. Material UI
+8. Storybook
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## `Технические комментарии`
+1. Компонент Button добавлен в Storybook для примера
+2. Добавлено несколько тестов для примера
