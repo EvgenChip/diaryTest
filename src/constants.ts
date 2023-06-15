@@ -1,0 +1,7 @@
+const MAX_LENGTH_TITLE = 25
+const MAX_LENGTH_DESCRIPTION = 1000
+
+export const VALID_LENGTH = {
+  title: MAX_LENGTH_TITLE,
+  description: MAX_LENGTH_DESCRIPTION,
+}
